@@ -16,6 +16,7 @@
     "pimple/pimple" : "~1.0",
     "symfony/yaml" : "~2.3",
     "laravelbook/ardent" : "dev-out-of-laravel",
+    "igorw/config-service-provider": "~1.1",
     "cartalyst/sentry" : "2.0.*",
     "ircmaxell/password-compat" : "1.0.*",
     "packfire/session" : "dev-master",
@@ -31,6 +32,8 @@
     "classmap" : [
     ],
     "psr-4" : {
+      "Acme\\": "src/",
+      "App\\": "app/",
       "Controller\\" : "app/controllers",
       "Model\\" : "app/models"
     }

@@ -1,8 +1,8 @@
 define [
-  "../../../../../assets/dist/js/app/gift/giftModel"
-], (( GiftModel) ->
-  class Gift extends Marionette.ItemView
-    model : GiftModel
+  "../../../../assets/dist/js/app/models/leModel"
+], (( LeModel) ->
+  class LeView extends Marionette.ItemView
+    model : LeModel
   describe "hello", ->
     it "should say hello", ->
       true.should.true

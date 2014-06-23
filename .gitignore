@@ -1,5 +1,6 @@
 db/
 composer.lock
+cache/
 vendor/
 bin/*
 assets/node_modules/*
