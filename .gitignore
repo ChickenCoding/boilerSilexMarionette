@@ -7,9 +7,11 @@ assets/node_modules/*
 assets/dist/
 tests/frontend/node_modules/
 logs/*
-docs/
+docs/backend/
+docs/frontend/*
+!docs/frontend/data.json
 !tests/bootstrap.php
 !assets/src/vendor/
 !tests/frontend/vendor/
 todo.md
-
+npm-debug.log
