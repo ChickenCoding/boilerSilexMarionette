@@ -9,8 +9,8 @@ require_once __DIR__ . "/../vendor/autoload.php";
 
 use Silex\Application;
 use Silex\Extension\TwigExtension;
-use Symfony\Component\HttpFoundation\Request as Request;
-use Symfony\Component\HttpFoundation\Response as Response;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Cartalyst\Sentry\Facades\Native\Sentry as Sentry;
 
 /**
@@ -26,7 +26,6 @@ use Cartalyst\Sentry\Facades\Native\Sentry as Sentry;
  *  @property $env string
  */
 $env = getenv("APP_ENV")?:"prod";
-$env = "dev";
 
 /**
  *  New Application Object
